@@ -1,0 +1,31 @@
+body{
+    background-color: gainsboro;
+}
+
+.content{
+    
+   display: flex; /* Make the parent container a flex container */
+   flex-direction: column;
+  justify-content: center; /* Align content horizontally in the center */
+  align-items: center; /* Align content vertically in the center */
+  min-height: 100vh;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+
+button{
+    padding: 9px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    
+}
+
+#recommendation{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
